@@ -15,7 +15,7 @@
   header{
   width:100%;
   height:60px;
-  background-color: white;
+  background-color: #f2e7f1;
   position: fixed;
   top:0;
   }
@@ -24,6 +24,7 @@
 }
 .bar{
     z-index: 100;
+    background-color: #CC3399;
 }
 
 .blocktitle-green{
@@ -119,7 +120,7 @@
       cursor: pointer;/*カーソルを指の形に変更*/
   }
   .menu__line{
-      background: #0B7A6D;/*bar color*/
+      background: #ffffff;/*bar color*/
       display: block;/*https://saruwakakun.com/html-css/basic/display*/
       height: 2px;/*bar thickness*/
       position: absolute;/*絶対位置*/
@@ -137,7 +138,7 @@
   .menu__line--top.active{
     top: 8px;
     transform: rotate(45deg);/*上の棒の挙動*/
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .menu__line--center.active{
     transform:scaleX(0);/*真ん中の棒の挙動*/
@@ -145,16 +146,16 @@
 .menu__line--bottom.active{
     bottom: 10px;
     transform: rotate(135deg);/*下の棒の挙動*/
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .bar.active{
-    background-color: #77a9aa;
+    background-color: #CC3399;
 }
   /*gnav*/
   /*箱*/
   
   .gnav{
-      background:#E3FFF6;
+      background:#f2e7f1;
       margin-top: 60px;
       height: 100%;
       display:none;
@@ -188,10 +189,10 @@
     width: 10px;
    }
    .gnav__menu::-webkit-scrollbar-track{
-    background-color: #ccc;
+    background-color: #f2e7f1;
    }
    .gnav__menu::-webkit-scrollbar-thumb{
-    background-color: #77a9aa;
+    background-color: #CC3399;
    }
 
   .gnav__menu__item{
@@ -199,14 +200,14 @@
       margin-bottom: 70px;
   }
   .gnav__menu__item a{
-      color: #77A9AA;
+      color: #CC3399;
       font-size: 1.3em;
       font-weight: bold;
       text-decoration: none;
       transition:.5s;/*黒く変わるまで*/
   }
   .gnav__menu__item a:hover{
-      color: #fff
+      color: #ffffff
   }
   
   .footer {
@@ -634,24 +635,83 @@ font-weight: 700;
 
 /*hero青*/
 .heroblue{
-    position: relative;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #f2e7f1;
 }
-.herophoto{
-    width: 100%;
+.circleparent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circlecontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
+.fstcircle{
+  margin: 0.5em 1em 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #CC3399;
+  box-sizing: border-box;
+}
+.seccircle{
+  margin: 0.5em 1em 0px 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #E084C1;
+  box-sizing: border-box;
+}
+.thrcircle{
+  margin: 0.5em 1em 0px 0px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5DD1A7;
+  box-sizing: border-box;
+}
+.migi{
+  margin: 0px 1em 0.5em;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #CC3399;
+  box-sizing: border-box;
+}
+.manaka{
+  margin: 0px 0px 0.5em 1em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #E084C1;
+  box-sizing: border-box;
+}
+.hidari{
+  margin: 0px 0px 0.5em 1em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5DD1A7;
+  box-sizing: border-box;
+}
 .heroblue p {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
-    font-size: 5vw;
-    font-weight: bold;
-    color: #08263A;
+position:absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+font-size: 4vw;
+font-weight: bold;
+color: #1b1725;
 }
 
 /*hero白*/
