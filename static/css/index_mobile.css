@@ -675,6 +675,57 @@ font-weight: 700;
     font-weight: bold;
     color: #08263A;
 }
+
+.circle-parents{
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.charbox{
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.char{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight:bold;
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #5DD1A7;
+}
+.circle1>div{
+    margin: 10px 0 0 -10px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #93DBC1;
+}
+  .circle2{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #5DD1A7;
+}
+.circle2>div{
+    margin: 10px 0 0 10px;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #93DBC1;
+}
+
 }
 
 
