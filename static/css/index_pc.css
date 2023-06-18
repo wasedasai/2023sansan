@@ -7,7 +7,7 @@ html{
 }    
 body {
   font-family: 'Zen Kaku Gothic', sans-serif;
-  background-color:#E3FFF6;
+  background-color:#FFF;
   margin: 0;
   width:100%;
   padding-top:60px;
@@ -114,6 +114,7 @@ header{
   .gnav__menu__item{
       text-align: center;
       margin-bottom: 70px;
+      margin-top: 5px;
       
   }
   .gnav__menu__item a{
@@ -129,7 +130,7 @@ header{
 
 
 .footer {
-    background-color: #E3FFF6;
+    background-color: #CC3399;
     color: #08263A;
     padding: 3rem 1rem;
     position: relative;
@@ -749,6 +750,7 @@ color: #1b1725;
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .charbox{
