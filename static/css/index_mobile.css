@@ -377,7 +377,7 @@ font-weight: 700;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0;
-    color: #08263A;
+    color: #ffffff;
   }
   
   a.btn-border-shadow {
@@ -394,7 +394,7 @@ font-weight: 700;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow:hover {
@@ -408,7 +408,7 @@ font-weight: 700;
   
   a.btn-border-shadow--color {
     border-radius: 0;
-    background: #F7C4C6;
+    background: #E084C1;
     border-radius: 20px;
     width: 251px;
     height: 112px;
@@ -450,7 +450,7 @@ font-weight: 700;
      text-align: center;
      text-decoration: none;
      letter-spacing: 0;
-     color: #fff;
+     color: #ffffff;
    }
    
    a.btn-border-shadow-green {
@@ -467,7 +467,7 @@ font-weight: 700;
      content: "";
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
-     border: 3px solid #566C7D;
+     border: 3px solid #ffffff;
    }
    
    a.btn-border-shadow-green:hover {
@@ -481,7 +481,7 @@ font-weight: 700;
    
    a.btn-border-shadow--color-green {
      border-radius: 0;
-     background: #77A9AA;
+     background: #D65BAD;
      border-radius: 20px;
      width: 251px;
      height: 112px;
@@ -521,7 +521,7 @@ font-weight: 700;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0;
-    color: #08263A;
+    color: #ffffff;
   }
   
   a.btn-border-shadow-yellow {
@@ -538,7 +538,7 @@ font-weight: 700;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow-yellow:hover {
@@ -552,7 +552,7 @@ font-weight: 700;
   
   a.btn-border-shadow--color-yellow {
     border-radius: 0;
-    background: #F7D494;
+    background: #A3287A;
     border-radius: 20px;
     width: 251px;
     height: 112px;
@@ -575,7 +575,7 @@ font-weight: 700;
   }
   
   .btn-red{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
@@ -609,7 +609,7 @@ font-weight: 700;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow-red:hover {
@@ -623,7 +623,7 @@ font-weight: 700;
   
   a.btn-border-shadow--color-red {
     border-radius: 0;
-    background: #F46E74;
+    background: #7A1E5B;
     border-radius: 20px;
     width: 251px;
     height: 112px;

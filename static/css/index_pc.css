@@ -485,7 +485,7 @@ color: #1b1725;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.1em;
-    color: #08263A;
+    color: #ffffff;
   }
   
   a.btn-border-shadow {
@@ -502,7 +502,7 @@ color: #1b1725;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow:hover {
@@ -516,7 +516,7 @@ color: #1b1725;
   
   a.btn-border-shadow--color {
     border-radius: 0;
-    background: #F7C4C6;
+    background: #E084C1;
     border-radius: 20px;
     width: 251px;
     height: 112px;
@@ -558,7 +558,7 @@ color: #1b1725;
      text-align: center;
      text-decoration: none;
      letter-spacing: 0;
-     color: #fff;
+     color: #ffffff;
    }
    
    a.btn-border-shadow-green {
@@ -575,7 +575,7 @@ color: #1b1725;
      content: "";
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
-     border: 3px solid #566C7D;
+     border: 3px solid #ffffff;
    }
    
    a.btn-border-shadow-green:hover {
@@ -589,7 +589,7 @@ color: #1b1725;
    
    a.btn-border-shadow--color-green {
      border-radius: 0;
-     background: #77A9AA;
+     background: #d65bad;
      border-radius: 20px;
      width: 251px;
      height: 112px;
@@ -631,7 +631,7 @@ color: #1b1725;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.1em;
-    color: #08263A;
+    color: #ffffff;
   }
   
   a.btn-border-shadow-yellow {
@@ -648,7 +648,7 @@ color: #1b1725;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow-yellow:hover {
@@ -662,7 +662,7 @@ color: #1b1725;
   
   a.btn-border-shadow--color-yellow {
     border-radius: 0;
-    background: #F7D494;
+    background: #A3287A;
     border-radius: 20px;
     width: 251px;
     height: 112px;
@@ -687,7 +687,7 @@ color: #1b1725;
   .btn-red,
   a.btn-red,
   button.btn-red{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
@@ -721,7 +721,7 @@ color: #1b1725;
     content: "";
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    border: 3px solid #566C7D;
+    border: 3px solid #ffffff;
   }
   
   a.btn-border-shadow-red:hover {
@@ -735,7 +735,7 @@ color: #1b1725;
   
   a.btn-border-shadow--color-red {
     border-radius: 0;
-    background: #F46E74;
+    background: #7A1E5B;
     border-radius: 20px;
     width: 251px;
     height: 112px;
