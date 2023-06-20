@@ -22,7 +22,16 @@
       <meta name="twitter:site" content="@staff_wasedasai" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script type="text/javascript" src="static/js/index.js"></script>
-      <link rel="stylesheet" href="https://use.typekit.net/pgt6myi.css">
+      <script>
+        (function(d) {
+          var config = {
+            kitId: 'sca7btt',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
   </head>
 
   <body class="topbody">
@@ -286,7 +295,9 @@
    .dream{
       color:#CC3399;
       font-weight: bold;
-      font-family: 'senobi gothic';
+      font-family: "senobi-gothic", sans-serif;
+      font-weight: 400;
+      font-style: normal;
       font-size: larger;
       margin: 10px 0;
     }
